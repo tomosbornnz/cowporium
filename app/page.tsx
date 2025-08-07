@@ -46,20 +46,16 @@ export default function CaaSLanding() {
                     Now with 99.9% Moo-time
                   </Badge>
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    Welcome to{" "}
-                    <span className="text-blue-600">Clowd</span> as a Service
+                    Scale your herd with the latest{" "}
+                    <span className="text-blue-600">Clowd Service</span>
                   </h1>
                   <p className="max-w-[600px] text-gray-600 md:text-xl">
-                    The world's first cloud platform designed specifically for bovine management and premium eyewear solutions. 
-                    Scale your herd and style with enterprise-grade moo-bility.
+                    The only platform that allows you to scale your herd one cow at a time. Buy one cow, get one pair of sunglasses.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                    Start Your Free Trial
-                  </Button>
-                  <Button variant="outline" size="lg">
-                    Watch Demo
+                    Join the herd
                   </Button>
                 </div>
                 <div className="flex items-center gap-4 text-sm text-gray-500">
@@ -110,18 +106,18 @@ export default function CaaSLanding() {
                 <CardHeader>
                   <div className="flex items-center gap-2">
                     <Cow className="w-8 h-8 text-amber-600" />
-                    <CardTitle>Herd Management Cloud</CardTitle>
+                    <CardTitle>Cow Subscription Model</CardTitle>
                   </div>
                   <CardDescription>
-                    Monitor, track, and optimize your cattle operations with real-time analytics and AI-powered insights.
+                    Get one (or two) cows per year to scale your herd as needed. No more bulk buying your hooved friends.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-sm text-gray-600">
-                    <li>• GPS tracking for every cow</li>
-                    <li>• Health monitoring dashboards</li>
-                    <li>• Automated feeding schedules</li>
-                    <li>• Milk production analytics</li>
+                    <li>• Cancel any time</li>
+                    <li>• No choice required</li>
+                    <li>• Cows delivered by drone strike</li>
+                    <li>• Moo</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -133,15 +129,15 @@ export default function CaaSLanding() {
                     <CardTitle>Eyewear-as-a-Service</CardTitle>
                   </div>
                   <CardDescription>
-                    Premium sunglasses management platform with style analytics and UV protection monitoring.
+                    We are the only emporium that will give you a free pair of sunglasses with every purchase of a cow. Say goodbye to glare and hello to fashion.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-sm text-gray-600">
-                    <li>• Style recommendation engine</li>
-                    <li>• UV protection analytics</li>
-                    <li>• Inventory management</li>
-                    <li>• Trend forecasting</li>
+                    <li>• Protects your cows eyes</li>
+                    <li>• Makes them look hella fly</li>
+                    <li>• Reflect the sun away</li>
+                    <li>• Make hay whilst the sun shines</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -150,79 +146,141 @@ export default function CaaSLanding() {
                 <CardHeader>
                   <div className="flex items-center gap-2">
                     <Globe className="w-8 h-8 text-green-600" />
-                    <CardTitle>Global Pasture Network</CardTitle>
+                    <CardTitle>CaaS Application</CardTitle>
                   </div>
                   <CardDescription>
-                    Connect with farmers worldwide and share grazing resources through our distributed pasture cloud.
+                    Get access to the latest Cow as a Service technology. Our intuitive application allows you to get the most out of your cow deliveries.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-sm text-gray-600">
-                    <li>• Pasture sharing marketplace</li>
-                    <li>• Weather integration</li>
-                    <li>• Soil quality monitoring</li>
-                    <li>• Community forums</li>
+                    <li>• Android and iOS compatible</li>
+                    <li>• No more wondering where your cow subscription order is</li>
+                    <li>• Increased delivery analytics</li>
+                    <li>• Enterprise grade security</li>
                   </ul>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* Pricing Section */}
+        <section id="pricing" className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <Badge variant="outline">Pricing</Badge>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Choose your herd size
+                </h2>
+                <p className="max-w-[900px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Simple, transparent pricing that scales with your bovine ambitions.
+                </p>
+              </div>
+            </div>
+            <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-8">
+              <Card className="hover:shadow-lg transition-shadow">
+                <CardHeader className="text-center">
+                  <CardTitle className="text-2xl">Starter</CardTitle>
+                  <div className="text-4xl font-bold text-blue-600">$1,500</div>
+                  <div className="text-gray-500">per year</div>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <ul className="space-y-3 text-sm">
+                    <li className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                      One pair of sunglasses
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                      One cow only
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                      Angus or Fresian
+                    </li>
+                  </ul>
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                    Start Small
+                  </Button>
+                </CardContent>
+              </Card>
+
+              <Card className="hover:shadow-lg transition-shadow border-blue-600 border-2 relative">
+                <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                  <Badge className="bg-blue-600">Most Popular</Badge>
+                </div>
+                <CardHeader className="text-center">
+                  <CardTitle className="text-2xl">Scaler</CardTitle>
+                  <div className="text-4xl font-bold text-blue-600">$3,000</div>
+                  <div className="text-gray-500">per year</div>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <ul className="space-y-3 text-sm">
+                    <li className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                      Two pairs of sunglasses
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                      Two cows only
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                      All breeds available
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                      Delivery insurance included
+                    </li>
+                  </ul>
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                    Scale Up
+                  </Button>
                 </CardContent>
               </Card>
 
               <Card className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <div className="flex items-center gap-2">
-                    <BarChart3 className="w-8 h-8 text-blue-600" />
-                    <CardTitle>Moo-Analytics</CardTitle>
-                  </div>
-                  <CardDescription>
-                    Advanced business intelligence for your farm operations with predictive modeling and ROI tracking.
-                  </CardDescription>
+                <CardHeader className="text-center">
+                  <CardTitle className="text-2xl">Enterprise</CardTitle>
+                  <div className="text-4xl font-bold text-blue-600">$5,000</div>
+                  <div className="text-gray-500">per year</div>
                 </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2 text-sm text-gray-600">
-                    <li>• Profit optimization models</li>
-                    <li>• Market price predictions</li>
-                    <li>• Custom dashboards</li>
-                    <li>• Export compliance</li>
+                <CardContent className="space-y-4">
+                  <ul className="space-y-3 text-sm">
+                    <li className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                      Five pairs of sunglasses
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                      Up to five cows
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                      All breeds available
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                      Delivery insurance included
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                      Cow insurance
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                      Milk delivery agents
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                      24/7 support
+                    </li>
                   </ul>
-                </CardContent>
-              </Card>
-
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <div className="flex items-center gap-2">
-                    <Shield className="w-8 h-8 text-red-600" />
-                    <CardTitle>Enterprise Security</CardTitle>
-                  </div>
-                  <CardDescription>
-                    Bank-level security for your most valuable assets - your cows and your sunglasses collection.
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2 text-sm text-gray-600">
-                    <li>• End-to-end encryption</li>
-                    <li>• Biometric cow identification</li>
-                    <li>• Theft prevention alerts</li>
-                    <li>• Compliance reporting</li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <div className="flex items-center gap-2">
-                    <Headphones className="w-8 h-8 text-purple-600" />
-                    <CardTitle>24/7 Moo-Support</CardTitle>
-                  </div>
-                  <CardDescription>
-                    Round-the-clock support from our team of certified bovine cloud specialists and style consultants.
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2 text-sm text-gray-600">
-                    <li>• Live chat support</li>
-                    <li>• Video consultations</li>
-                    <li>• Emergency response</li>
-                    <li>• Training programs</li>
-                  </ul>
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                    Go Enterprise
+                  </Button>
                 </CardContent>
               </Card>
             </div>
