@@ -11,7 +11,7 @@ export default function CaaSLanding() {
     <div className="flex flex-col min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* Header */}
       <header className="px-4 lg:px-6 h-16 flex items-center bg-white/80 backdrop-blur-sm border-b sticky top-0 z-50">
-        <img src="https://github.com/tomosbornnz/cowporium/blob/1819d5aff9e387c4e9dcd3371c7d18104e8cf26f/app/caas-logo.jpg" width="200px" />
+        <img src="https://raw.githubusercontent.com/tomosbornnz/cowporium/1819d5aff9e387c4e9dcd3371c7d18104e8cf26f/app/caas-logo.jpg" width="200px" />
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link href="#features" className="text-sm font-medium hover:text-blue-600 transition-colors">
             Features
